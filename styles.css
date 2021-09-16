@@ -12,7 +12,9 @@ h1 {
   margin: 40px 0px 30px 180px;
 }
 
-h1,
+h1 { font-style: italic;
+}
+
 h2 {
   font-variant: small-caps;
   font-style: italic;
@@ -20,6 +22,9 @@ h2 {
 
 p {
   margin: 5px 100px 5px 5px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 110%;
 }
 
 #tartalom {
@@ -30,6 +35,9 @@ p {
   background-color: rgba(222, 222, 222);
   margin-bottom: 20px;
   padding: 40px;
+  margin-top: 40px;
+  width: 870px;
+  margin: auto;
 }
 
 li {
@@ -40,4 +48,17 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+.jobbra {
+  text-align: right;
+  margin-right: 100px;
+}
+.eletrajz { 
+  font-size: 80%;
+  background-color: rgba(0, 0, 0, 0.479);
+  color: white;
+  padding: 10px;
+}
+a:hover {
+  color: red;
 }
